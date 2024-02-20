@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables Formation</title>
+    <style>
+        body{
+            background-color: aquamarine;
+            
+        }
+        table
+        {
+            width: 80%;
+            border-collapse: collapse;
+            text-align: center;
+            color: aliceblue;
+        }
+        td,th{
+            /* border-radius: 5cm; */
+            border: 1px solid black;
+            padding: 20PX;
+        }
+        tr:nth-child(even)
+        {
+            background-color: #424242;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Counntry</th>
+            <th>country code</th>
+            <th>country email</th>
+        </tr>
+        <tr>
+            <td>India</td>
+            <td>IN</td>
+            <td>india.@google.com</td>
+        </tr>
+        <tr>
+            <td>America</td>
+            <td>usa</td>
+            <td>usa.@google.com</td>
+        </tr>
+        <tr>
+            <td>Japan</td>
+            <td>jp</td>
+            <td>Japan.@google.com</td>
+        </tr>
+        <tr>
+            <td>Nepal</td>
+            <td>np</td>
+            <td>nepal.@google.com</td>
+        </tr>
+        <tr>
+            <td>australia</td>
+            <td>as</td>
+            <td>australia.@google.com</td>
+        </tr>
+    </table><br/>
+    <table style="width: 50%; background-color: bisque;">
+        <tr>
+        <th>Country</th>
+        <th>Capital</th>
+    </tr>
+    <tr>
+        <td>India</td>
+        <td>delhi</td>
+    </tr>
+    <tr>
+        <td>Nepal</td>
+        <td>Kathmandu</td>
+    </tr>
+    </table>
+    <!-- Here we add footer to our table witha a message sare jahan se achq hindutan humara -->
+    <tfoot>
+        <tr>
+          <th scope="row">MESSAGE:</th><br/>
+          <td>SARE JAHAN SE ACHA HINDUSTAN HUMARA </td>
+        </tr>
+      </tfoot>
+</body>
+</html>
